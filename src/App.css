@@ -1,11 +1,9 @@
-.login-container, .signup-container {
-  width: 300px;
-  margin: 50px auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding-right: 40px;
-  
+.formhai{
+  font-family: Arial, Helvetica, sans-serif;  
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input {
@@ -29,7 +27,9 @@ button:hover {
   background-color: #0056b3;
 }
 
-.welcome {
+.welcome,
+.loginkrlo,
+.signupkrlo {
  color: rgb(165, 165, 239);
  font-size: 50px;
  text-align: left;
@@ -39,19 +39,10 @@ button:hover {
  padding-left: 20px;
 }
 
-.smjh{
-  text-align: center;
-  background-color: rgb(165, 165, 239);
-  border: none;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 30px;
-  padding-top: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+.smjhA{
   display: flex;
   justify-content: center;
-  align-items: center; 
-
+  align-items: center;
 }
 
 .smjh:hover,
@@ -60,32 +51,40 @@ button:hover {
   background-color: rgb(106, 106, 193);
 }
 
-.aajao, .haveacc{
+.aajao, .haveacc,.desc{
   font-family: Arial, Helvetica, sans-serif;
-  padding-left: 20px;
   font-size: 20px;
   padding-top: 10px;
+  color: black;
+}
+
+.aajao, .desc{
+  text-align: left;
 }
 
 .phoolwala{
   height: 400px;
- 
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-
+.imageimage,
+.imagesignup{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 0px;
+}
+.imageimage{
+  height: 360px;
+}
+.imagesignup{
+  height: 300px;
+}
 .haveacc{
   text-align: center;
-}
-
-.loginkrlo,
-.signupkrlo {
-  color: rgb(165, 166, 239);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  text-align: left;
 }
 
 .loginbutton,
@@ -94,14 +93,20 @@ button:hover {
   background-color: rgb(165, 165, 239);
   border: none;
   cursor: pointer;
-  display: inline-block;
+  display:block;
   padding-top: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
+  color: white;
+  width: 104%;
 }
 
-.formhai{
+.smjh{
+  text-align: center;
+  background-color: rgb(165, 165, 239);
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  padding-top: 15px;
   font-family: Arial, Helvetica, sans-serif;
+  width: 350px;
 }
